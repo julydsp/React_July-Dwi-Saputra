@@ -45,6 +45,9 @@ ini tampilan file README.md di branch develop setelah melakukan perubahan
 
 ![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/view%20develop%20branch.png?row=true)
 
+lalu ini adalah cara melakukan pull request dari branch yang telah kita buat yaitu develop ke main branch
+
+![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/Screenshot%20(343).png?row=true)
 
 
 
