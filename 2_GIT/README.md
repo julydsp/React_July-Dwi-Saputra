@@ -33,7 +33,13 @@
 
 ![make branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/2_GIT/screnshot/membuat%20branch.png?row=true)
 
-![make branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/2_GIT/screnshot/branch.png?row=true)
+![branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/2_GIT/screnshot/branch.png?row=true)
+
+**pull request**
+
+ini tampilan file README.md di branch main 
+
+![view main branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/2_GIT/screnshot/view%20main%20branch.png?row=true)
 
 
 
