@@ -41,6 +41,9 @@ ini tampilan file README.md di branch main
 
 ![view main branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/view%20main%20branch.png?row=true)
 
+ini tampilan file README.md di branch develop setelah melakukan perubahan
+
+![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/view%20develop%20branch.png?row=true)
 
 
 
