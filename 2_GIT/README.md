@@ -49,5 +49,9 @@ lalu ini adalah cara melakukan pull request dari branch yang telah kita buat yai
 
 ![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/Screenshot%20(343).png?row=true)
 
+**Jawaban Soal Eksplorasi**
+
+![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/soal%20eksplorasi(343).png?row=true)
+
 
 
