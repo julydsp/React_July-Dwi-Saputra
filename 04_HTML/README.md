@@ -22,29 +22,29 @@
 
 **Soal Prioritas 1**
 
-![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screnshot/Screenshot%20(349).png?row=true)
+![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screenshot/Screenshot%20(349).png?row=true)
 
 **Soal Prioritas 2**
 
-![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screnshot/Screenshot%20(348).png?row=true)
+![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screenshot/Screenshot%20(348).png?row=true)
 
 **Soal Eksplorasi**
 
     1. Required
 
-![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screnshot/Screenshot%20(352).png?row=true)
+![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screenshot/Screenshot%20(352).png?row=true)
 
     2. memberikan minimal 6 huruf dan maksimal 50 huruf pada setiap form 
 
-![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screnshot/Screenshot%20(351).png?row=true)
+![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screenshot/Screenshot%20(351).png?row=true)
 
     3. Menyambungkan landingpage ke creataccount
 
-![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screnshot/Screenshot%20(354).png?row=true)
+![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screenshot/Screenshot%20(354).png?row=true)
 
     4. tampilan halaman creataccount
 
-![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screnshot/Screenshot%20(355).png?row=true)
+![Soal prioritas 1](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/04_HTML/screenshot/Screenshot%20(355).png?row=true)
 
 
 
