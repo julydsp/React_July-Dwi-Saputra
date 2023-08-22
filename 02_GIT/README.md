@@ -17,43 +17,43 @@
 
 **Membuat Repositori**
 
-![make repositori](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/2_GIT/screnshot/membuat%20repository.png?row=true)
+![make repositori](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/02_GIT/screnshot/membuat%20repository.png?row=true)
 
 **Membuat Folder Berurutan**
 
-![make folder](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/2_GIT/screnshot/membuat%20folder%20berurutan.png?row=true)
+![make folder](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/02_GIT/screnshot/membuat%20folder%20berurutan.png?row=true)
 
 **Membuat Sub Folder**
 
-![make sub folder](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/2_GIT/screnshot/membuat%20sub%20folder.png?row=true)
+![make sub folder](https://github.com/julydsp/React_July-Dwi-Saputra/blob/main/02_GIT/screnshot/membuat%20sub%20folder.png?row=true)
 
 **<h1>Soal Prioritas 2</h1>**
 
 **Membuat Branch develop**
 
-![make branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/membuat%20branch.png?row=true)
+![make branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/02_GIT/screnshot/membuat%20branch.png?row=true)
 
-![branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/branch.png?row=true)
+![branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/02_GIT/screnshot/branch.png?row=true)
 
 **pull request**
 
 ini tampilan file README.md di branch main 
 
-![view main branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/view%20main%20branch.png?row=true)
+![view main branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/02_GIT/screnshot/view%20main%20branch.png?row=true)
 
 ini tampilan file README.md di branch develop setelah melakukan perubahan
 
-![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/view%20develop%20branch.png?row=true)
+![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/02_GIT/screnshot/view%20develop%20branch.png?row=true)
 
 lalu ini adalah cara melakukan pull request dari branch yang telah kita buat yaitu develop ke main branch
 
-![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/Screenshot%20(343).png?row=true)
+![view develop branch](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/02_GIT/screnshot/Screenshot%20(343).png?row=true)
 
 **Jawaban Soal Eksplorasi**
 
 dari soal ekplorasi saya memilih workflow github flow
 
-![jawaban soal eksplorasi](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/2_GIT/screnshot/soal%20eksplorasi.png?row=true)
+![jawaban soal eksplorasi](https://github.com/julydsp/React_July-Dwi-Saputra/blob/develop/02_GIT/screnshot/soal%20eksplorasi.png?row=true)
 
 
 
