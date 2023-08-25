@@ -175,7 +175,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #37517E;
-  height: 659px;
+  height: 100%;
 }
 .footer-join {
   margin-top: auto;
@@ -197,7 +197,6 @@ body {
 
 .teks p {
   font-size: 15px;
-  font-weight: 400;
   font-family: Open Sans;
   text-align: center;
   margin-top: -10px;
@@ -221,7 +220,7 @@ input[type="text"] {
   outline: none;
 }
 input[type="submit"] {
-  position: absolute;
+ 
   height: 42px;
   border: none;
   width: 113px;
@@ -233,7 +232,6 @@ input[type="submit"] {
 .footer {
   display: grid;
   background-color: #ffffff;
-  height: 339px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 3.5rem;
   padding: 60px 80px 30px;
