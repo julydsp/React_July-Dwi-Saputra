@@ -27,6 +27,7 @@ const adalah jenis variabel yang nilai nya tetap dapat diubah  dan juga const ti
 ![SOURCECODE_alert_peringatan_lebih_10_karakter](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/javascript/07_Javascript/screenshot/Screenshot%20(386).png?row=true)
 
 ![VIEW_alert_peringatan_lebih_10_karakter](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/javascript/07_Javascript/screenshot/Screenshot%20(383).png?row=true)
+
 3. memunculkan alert tidak boleh mengkosongkan data ketika product name dan produk price kosong dan diklik submit
 
 ![VIEW_alert_productname_tidakbolehkosong](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/javascript/07_Javascript/screenshot/Screenshot%20(387).png?row=true)
