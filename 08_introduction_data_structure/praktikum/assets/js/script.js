@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const productNameInput = document.getElementById("nameProduct");
   const productPriceInput = document.getElementById("productPrice");
-
   const nameLengthAlert = document.getElementById("nameLengthAlert");
   const alertSimbols = document.getElementById("alertSimbols");
   const productForm = document.getElementById("productForm");
@@ -9,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const alertPrice = document.querySelector("#alertPrice");
   const alertDangerProduct = document.querySelector("#alertDangerProduct");
   const tabel = document.getElementById("table");
+  const deleteButton = document.getElementById("buttonDelete");
 
   let dataProduct = [];
 
@@ -93,8 +93,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     dataProduct.push(data);
     console.log(dataProduct);
+    showdata();
 
-    let tabelproduct = "";
+    // let tabelproduct = "";
+    // dataProduct.forEach((tr) => {
+    //   tabelproduct += `<tr class="tr-1">
+    //       <th scope="row">1</th>
+    //       <td>${tr.name}</td>
+    //       <td>${tr.selectCategory}</td>
+    //       <td>${tr.imageInput}</td>
+    //       <td>${tr.freshnessProduct}</td>
+    //       <td>${tr.textArea}</td>
+    //       <td>${tr.price}</td>
+    //     </tr>`;
+    // });
+    // tabel.innerHTML = tabelproduct;
+  }
+  function showdata() {
+     let tabelproduct = "";
     dataProduct.forEach((tr) => {
       tabelproduct += `<tr class="tr-1">
           <th scope="row">1</th>
@@ -108,4 +124,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     tabel.innerHTML = tabelproduct;
   }
+
+
+  deleteButton.addEventListener("click", function(){
+    dataProduct.pop();
+    showdata();
+    console.log(dataProduct);
+  })
 });
+
