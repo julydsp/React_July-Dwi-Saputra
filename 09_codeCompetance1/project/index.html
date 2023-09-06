@@ -22,7 +22,6 @@
     }
 
     .footer {
-      margin-top: 5px;
       background-color: #080809;
       /* opacity: 74%; */
       border-radius: 20px;
@@ -35,7 +34,7 @@
       gap: 2rem;
     }
 
-    h1 {
+    .content-footer h1 {
       color: #fff;
       font-family: Koulen;
       font-size: 36px;
@@ -50,7 +49,7 @@
       margin-bottom: 20px;
     }
 
-    a {
+    .media-sosial ul li a {
       margin-left: 1rem;
       color: #fff;
       text-decoration: none;
@@ -60,7 +59,7 @@
       font-weight: 400;
     }
 
-    p {
+    .about p {
       color: #fff;
       font-size: 16px;
       font-family: Kosugi;
@@ -112,40 +111,278 @@
       font-weight: 200;
       color: #fff;
     }
-    .main-navbar .navbar{
-      background-color: #080809;
+
+    .navbar {
+      position: fixed;
+      width: 100%;
+      background-color: #212124;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-    }  
-    .main-navbar .navbar a{
+      border-radius: 50px;
+      opacity: 90%;
+      margin-top: 5px;
+    }
+
+    .navbar .navbar-nav .nav-link {
       color: #fff;
     }
-    .main-navbar .navbar .navbar-nav a{
+
+    .navbar-nav {
+      margin-right: 20px;
+      gap: 20px;
+    }
+    .navbar-nav a {
+      font-family: Koulen;
+      font-size: 14px;
       color: #fff;
-     
-      
+    }
+
+    .container-fluid {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 20px 0px;
+    }
+
+    .navbar-brand {
+      color: #fff;
+      font-family: Koulen;
+      font-size: 28px;
+      font-style: normal;
+    }
+
+    .nav-icon ul {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0px;
+    }
+
+    .hero {
+      width: 100%;
+    }
+
+    .hero .bg-hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-image: url(/09_codeCompetance1/project/assets/img/bg-hero.jfif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-position: center;
+      height: 700px;
+    }
+
+
+
+    .hero h1 {
+      font-family: Koulen;
+      font-size: 32px;
+      color: #000;
+      margin-top: 65px;
+    }
+
+    .hero p {
+      font-family: Kosugi;
+      font-size: 20px;
+      color: #000;
+      text-align: center;
+    }
+
+    .hero .bg-hero .hero-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+      padding: 0px 10px 0px;
+    }
+    .hero .bg-hero a{
+      background-color: #080809;
+      padding: 10px 20px 10px;
+      border-radius: 25px;
+      margin-left:0px ;
+      margin-top: 20px;
+      font-family: Kosugi;
+      font-size: 24px;
+    }
+    .content h1{
+        text-align: center;
+    }
+    .title {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0px 20px;
+    }
+    .title label h1 {
+      font-family: Koulen;
+      font-size: 28px;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2rem;
+      margin-bottom: 10px;
+    }
+    .content-product {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .product {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+    }
+    .product p {
+      text-align: center;
+      font-family: Kosugi;
+      font-size: 14px;
+    }
+    .product .btn-buy {
+      background-color: #080809;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      padding: 10px 15px 10px;
+      border-radius: 25px;
+      opacity: 78%;
+    }
+    .product .btn-buy a{
+      text-decoration: none;
+      color: #fff;
     }
   </style>
-  <div class="main-navbar">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand col-3`" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav col-9">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link" href="#">Disabled</a>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand col-2 text-light" href="#">Selcouth.</a>
+      <div class="nav-icon col-4">
+        <ul>
+          <li>
+            <a href="#keranjang"><img src="/09_codeCompetance1/project/assets/img/shopping-bag.svg" alt=""></a>
+          </li>
+          <li>
+            <a href="#login"><img src="/09_codeCompetance1/project/assets/img/user.svg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end col-6 " id="navbarNavAltMarkup">
+        <div class="navbar-nav text-light">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">aboute</a>
+          <a class="nav-link" href="#">service</a>
+          <a class="nav-link" href="#">produk</a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="bg-hero">
+      <div class="hero-content">
+        <h1>Welcome in selcouthsupremacy</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quam. Esse odit ducimus eligendi nemo
+          quo debitis qui ullam dignissimos?</p>
+      </div>
+      <a href="">Get Shopping</a>
+    </div>
+  </section>
+  <div class="title">
+  <label for="text">
+    <h1>NEW ARRIVAL</h1>
+  </label>
   </div>
+  <main class="content">
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <main class="content">
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+    <div class="content-product">
+      <div class="product">
+        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <p>selcouth | cargo-pants</p>
+        <div class="btn-buy">
+          <a href="">Rp. 87.000</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
   <div class="footer">
     <div class="content-footer">
       <label for="text">
