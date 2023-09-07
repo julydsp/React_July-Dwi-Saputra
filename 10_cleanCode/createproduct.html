@@ -5,7 +5,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
@@ -47,17 +46,22 @@
             <div class="content">
                 <div class="form-detail-product">
                     <h3>Detail Product</h3>
+                    <!-- input product name -->
                     <div class="productname">
                         <label for="productname" class="form-label">Product Name</label>
                         <input type="text" id="nameProduct" class="form-control" maxlength="25"
                             placeholder="Input your product name">
                         <div class="alert alert-warning mt-2" id="nameLengthAlert" style="display: none;" role="alert">
                         </div>
-                        <div class="alert alert-danger alert-dismissible fade show mt-2" id="alertDangerProduct" style="display: none;" role="alert">
-                            Product Price cannot empty. Please enter a valid Product name!!!
+
+                        <div class="alert alert-danger alert-dismissible fade show mt-2" id="alertDangerProduct"
+                            style="display: none;" role="alert">
+                            Product Name cannot empty. Please enter a valid Product name!!!
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     </div>
+
+                    <!-- input slect category -->
                     <div class="select-category">
                         <label for="productcategory" class="form-label">Product Category</label>
                         <select class="form-select" id="selectCategory" aria-label="Default select example">
@@ -66,6 +70,8 @@
                             <option value="celana">celana</option>
                         </select>
                     </div>
+
+                    <!-- input image -->
                     <div class="img">
                         <label for="input-img" class="form-label">Product Image</label>
                         <div class="input-group">
@@ -73,45 +79,57 @@
                                 aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                         </div>
                     </div>
+
+                    <!-- input product freshness -->
                     <div class="product-freshness">
                         <label for="product-freshness" class="form-label">Product Freshness</label>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="Brand New" id="RadioDefault1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="Brand New"
+                                id="RadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">Brand New</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="Second Hand" id="RadioDefault1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="Second Hand"
+                                id="RadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault2">Second Hand</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="Refufbished" id="RadioDefault1">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="Refufbished"
+                                id="RadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">Refufbished</label>
                         </div>
                     </div>
+
+                    <!-- input text Area -->
                     <div class="text-box">
                         <div class="mb-3">
                             <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                             <textarea class="form-control" id="textArea" rows="3"></textarea>
                         </div>
                     </div>
+
+                    <!-- input price product -->
                     <div class="price">
                         <label for="product-freshness" class="form-label">Price</label>
                         <div class="input-group mb-3">
                             <span class="input-group-text bg-white ">$</span>
                             <input type="number" class="form-control" id="productPrice" placeholder="1">
                         </div>
-                        <div class="alert alert-danger alert-dismissible fade show mt-2" id="alertPrice" style="display: none;" role="alert">
+                        <div class="alert alert-danger alert-dismissible fade show mt-2" id="alertPrice"
+                            style="display: none;" role="alert">
                             Product Price cannot empty. Please enter a valid Product Price!!!
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     </div>
+
                     <!-- ... elemen-elemen formulir ... -->
                     <button type="submit" class="btn">Submit</button>
-        </form>
-        </div>
-        </div>
+                </div>
+            </div>
         </form>
     </main>
+
+    <!-- table -->
     <div class="footer">
         <div class="title">
             <h2>List Product</h2>
@@ -130,17 +148,8 @@
                 </tr>
             </thead>
             <tbody id="table">
-                <tr class="tr-1">
-                    <td scope="row">1001</td>
-                    <td>Lorem</td>
-                    <td>ipsum</td>
-                    <td>dolor</td>
-                    <td>brand new</td>
-                    <td>adipiscing</td>
-                    <td>9</td>
-                </tr>
-            </tbody>
 
+            </tbody>
         </table>
         <div class="search">
             <input type="text" id="productname" class="form-control fw-bold" placeholder="Search by Product Name">

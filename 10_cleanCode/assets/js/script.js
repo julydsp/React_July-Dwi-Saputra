@@ -1,27 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
   const productNameInput = document.getElementById("nameProduct");
   const productPriceInput = document.getElementById("productPrice");
-  const nameLengthAlert = document.getElementById("nameLengthAlert");
   const alertSimbols = document.getElementById("alertSimbols");
   const productForm = document.getElementById("productForm");
   const alertProduct = document.querySelector(".alert");
   const alertPrice = document.querySelector("#alertPrice");
   const alertDangerProduct = document.querySelector("#alertDangerProduct");
-  const tabel = document.getElementById("table");
   const deleteButton = document.getElementById("buttonDelete");
 
+  //event listener, validasi ketika melakukan inputan
   productNameInput.addEventListener("input", function () {
-    if (productNameInput.value.length > 10) {
+    productName = productNameInput.value;
+
+    if (productName.length > 10) {
       alertProduct.textContent = "Product Name must not exceed 25 characters.";
       alertProduct.style.display = "block";
     } else {
-      nameLengthAlert.style.display = "none";
+      alertProduct.style.display = "none";
     }
-  });
-
-  productNameInput.addEventListener("input", function () {
-    productName = productNameInput.value;
-    // Validasi karakter yang tidak diizinkan
     if (
       productName.includes("@") ||
       productName.includes("#") ||
@@ -30,12 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
     ) {
       alertProduct.textContent = "Product Name must not contain symbols.";
       alertProduct.style.display = "block";
-      // Menghentikan pengiriman data ke halaman lain
     } else {
       alertSimbols.style.display = "none";
     }
   });
 
+  // event listener, validasi ketika button submit diklik
   productForm.addEventListener("submit", function (event) {
     if (
       productNameInput.value.trim() === "" &&
@@ -45,10 +41,10 @@ document.addEventListener("DOMContentLoaded", function () {
       event.preventDefault();
     } else if (productNameInput.value.trim() === "") {
       alertDangerProduct.style.display = "block";
-      event.preventDefault(); // Menghentikan pengiriman data ke halaman lain
+      event.preventDefault();
     } else if (productPriceInput.value.trim() === "") {
       alertPrice.style.display = "block";
-      event.preventDefault(); // Menghentikan pengiriman data ke halaman lain
+      event.preventDefault();
     } else {
       alert("data berhasil disimpan");
       event.preventDefault();
@@ -56,8 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  const dataProduct = []; //membuar variabel array kosong untuk menampung objek
+  //membuat variabel array kosong untuk menampung objek
+  const dataProduct = [];
 
+  //function mengambil sebuah value
   function formProduct() {
     const productName = productNameInput.value;
     const productCategorySelectInput =
@@ -76,8 +74,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
+    //menyatukan value menjadi sebuah objek
     const dataNewProduct = {
-      //menyatukan value menjadi sebuah objek
       name: productName,
       selectCategory: productCategorySelectInput,
       imageInput: productImageInput,
@@ -87,29 +85,64 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     dataProduct.push(dataNewProduct);
-    console.log(dataProduct);
-    showdata();
+    showdata(dataProduct);
   }
 
-  function showdata() {
-     let tabelproduct = "";
-    dataProduct.forEach((tr) => {
-      tabelproduct += `<tr class="tr-1">
-          <th scope="row">1</th>
-          <td>${tr.name}</td>
-          <td>${tr.selectCategory}</td>
-          <td>${tr.imageInput}</td>
-          <td>${tr.freshnessProduct}</td>
-          <td>${tr.textArea}</td>
-          <td>${tr.price}</td>
-        </tr>`;
+  function showdata(dataProduct) {
+    const tabel = document.getElementById("table");
+
+    while (tabel.firstChild) {
+      tabel.removeChild(tabel.firstChild);
+    }
+
+    //mengiterasi setiap element dataProduct
+    dataProduct.forEach((data) => {
+      const {
+        name,
+        selectCategory,
+        imageInput,
+        freshnessProduct,
+        textArea,
+        price,
+      } = data;
+
+      const tr = document.createElement("tr"); 
+
+      const tdNumber = document.createElement("td"); 
+      tdNumber.textContent = "101";
+      tr.appendChild(tdNumber);
+
+      const tdName = document.createElement("td");
+      tdName.textContent = name; 
+      tr.appendChild(tdName);
+
+      const tdSelectCategory = document.createElement("td");
+      tdSelectCategory.textContent = selectCategory;
+      tr.appendChild(tdSelectCategory);
+
+      const tdImageInput = document.createElement("td");
+      tdImageInput.textContent = imageInput;
+      tr.appendChild(tdImageInput);
+
+      const tdFreshness = document.createElement("td");
+      tdFreshness.textContent = freshnessProduct;
+      tr.appendChild(tdFreshness);
+
+      const tdTextArea = document.createElement("td");
+      tdTextArea.textContent = textArea;
+      tr.appendChild(tdTextArea);
+
+      const tdPrice = document.createElement("td");
+      tdPrice.textContent = price;
+      tr.appendChild(tdPrice);
+
+      tabel.appendChild(tr); 
     });
-    tabel.innerHTML = tabelproduct;
   }
 
+  //eventlistener ketika button delete diklik
   deleteButton.addEventListener("click", function () {
-    dataProduct.pop();
-    showdata();
-    console.log(dataProduct);
+    dataProduct.pop(); 
+    showdata(dataProduct);
   });
 });

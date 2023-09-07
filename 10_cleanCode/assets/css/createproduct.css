@@ -5,33 +5,46 @@
   margin: 0px;
   padding: 0px;
 }
+
+/*navbar style*/
 .navbar {
   overflow: hidden;
   position: fixed;
   width: 100%;
   z-index: 999;
 }
+
 .navbar-brand {
   font-style: Roboto;
   font-size: 24px;
   font-weight: 500;
 }
+
 .navbar-nav {
   gap: 1rem;
 }
+
 .navbar-nav a {
   font-style: Roboto;
   font-size: 16px;
   font-weight: 500;
 }
+
 a:active {
   background-color: #0d6efd;
   color: white;
 }
+/*navbar style close */
+
+
+
+/*content*/
 main {
   display: inline-block;
   margin: 40px 252px 0px;
 }
+
+/*section hero*/  
 .header {
   display: flex;
   flex-direction: column;
@@ -40,9 +53,11 @@ main {
   padding: 50px 0px 50px;
   width: 100%;
 }
+
 .header img {
   height: 57px;
 }
+
 .header h2 {
   font-family: Roboto;
   font-weight: 500;
@@ -50,6 +65,7 @@ main {
   font-style: normal;
   color: #212529;
 }
+
 .header p {
   font-family: Roboto;
   font-weight: 300;
@@ -57,27 +73,34 @@ main {
   font-style: normal;
   color: #212529;
 }
+
+/*MAIN CONTENT*/
 .content {
   height: 850px;
   width: 100%;
 }
+
 .content .form-detail-product {
   display: flex;
   flex-direction: column;
 }
+
 .form-detail-product .form-label {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
 }
+
 .productname {
   margin-top: 10px;
 }
+
 .productname input {
   width: 282px;
   height: 36px;
 }
+
 .eror-teks {
   font-family: Roboto;
   padding: 3px 15px 0px;
@@ -86,32 +109,41 @@ main {
   color: red;
   display: none;
 }
+
 .select-category {
   margin-top: 20px;
 }
+
 .select-category .form-select {
   width: 218px;
   height: 36px;
 }
+
 .select-category .form-select option {
   font-size: 16px;
 }
+
 .img {
   margin-top: 20px;
 }
+
 .image::-webkit-file-upload-button {
   background-color: #0d6efd;
   color: #ffffff;
 }
+
 .input-group {
   width: 240px;
 }
+
 .product-freshness {
   margin-top: 20px;
 }
+
 .text-box {
   margin-top: 20px;
 }
+
 .price {
   margin-top: 20px;
 }
@@ -128,29 +160,35 @@ main {
   margin-top: 50px;
   border-radius: 10px;
 }
+
 .btn:hover{
   background-color: #211e2b ;
   color:  #ffffff;
   transition: 0.3ms;
 }
+
 .footer {
   text-align: center;
   height: 500px;
   margin-top: 50px;
 }
+
 .title {
   text-align: center;
 }
-/* baris tabel */
+
 .tr-2 {
   background-color: #dee2e6;
 }
+
 .tr-4 {
   background-color: #dee2e6;
 }
+
 .search {
   text-align: start;
 }
+
 .search input {
   width: 170px;
   height: 31px;
@@ -159,13 +197,16 @@ main {
   font-weight: 400;
   margin-top: -13px;
 }
+
 .search input::placeholder {
   color: #000000;
 }
+
 .btn-group {
   justify-content: flex-start;
   margin-top: 3px;
 }
+
 .btn-group .btn-deletion {
   background-color: #0d6efd;
   border-color: #0d6efd;
@@ -177,6 +218,7 @@ main {
   font-weight: 400;
   color: #ffffff;
 }
+
 .btn-group .btn-search {
   border-color: #0d6efd;
   border-radius: 4px;
@@ -187,11 +229,15 @@ main {
   font-weight: 400;
   margin-left: 2px;
 }
+
 .btn-search:hover {
   background-color: #0d6efd;
   color: #ffffff;
   transition: 0,3ms;
 }
+/*content close*/
+
+/*responsive ketika maksimal ukuran lebar layar 848px*/
 @media (max-width: 848px) {
   .navbar {
     overflow: hidden;
@@ -199,10 +245,12 @@ main {
     width: 100%;
     padding-right: -4;
   }
+
   main {
     display: inline-block;
     margin: 40px 130px 0px;
   }
+
   .header h2 {
     font-family: Roboto;
     font-weight: 500;
@@ -210,6 +258,7 @@ main {
     font-style: normal;
     color: #212529;
   }
+
   .header p {
     font-family: Roboto;
     font-weight: 300;
@@ -217,6 +266,8 @@ main {
     font-style: normal;
     color: #212529;
   }
+
+  /*responsive ketika ukuran lebar layar 555px*/
   @media (max-width: 555px) {
   .navbar {
     overflow: hidden;
@@ -224,10 +275,12 @@ main {
     width: 100%;
     padding-right: -4;
   }
+
   main {
     display: inline-block;
     margin: 40px 100px 0px;
   }
+
   .header h2 {
     font-family: Roboto;
     font-weight: 500;
@@ -235,6 +288,7 @@ main {
     font-style: normal;
     color: #212529;
   }
+
   .header p {
     font-family: Roboto;
     font-weight: 300;
