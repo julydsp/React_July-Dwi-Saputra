@@ -9,259 +9,10 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <title>Selamat Datang</title>
   <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Kosugi&family=Koulen&family=Work+Sans:wght@200;300&display=swap');
-
-    * {
-      padding: 0px;
-      margin: 0px;
-      text-decoration: none;
-    }
-
-    .footer {
-      background-color: #080809;
-      /* opacity: 74%; */
-      border-radius: 20px;
-    }
-
-    .footer .content-footer {
-      display: grid;
-      padding: 20px 30px 10px;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 2rem;
-    }
-
-    .content-footer h1 {
-      color: #fff;
-      font-family: Koulen;
-      font-size: 36px;
-      font-style: normal;
-    }
-
-    h2 {
-      color: #fff;
-      font-family: Kosugi;
-      font-weight: 400;
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-
-    .media-sosial ul li a {
-      margin-left: 1rem;
-      color: #fff;
-      text-decoration: none;
-      font-family: Kosugi;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-    }
-
-    .about p {
-      color: #fff;
-      font-size: 16px;
-      font-family: Kosugi;
-      font-style: normal;
-      font-weight: 400;
-    }
-
-    ul li {
-      list-style: none;
-    }
-
-    ul {
-      display: grid;
-      flex-direction: row;
-      gap: 10px;
-      padding: 0px 0px 0px;
-    }
-
-    .footer .about .info .no-hp {
-      border: 2px;
-      border-style: solid;
-      border-color: #888181;
-      background-color: #888181;
-      border-radius: 15px;
-      padding: 5px 10px 5px;
-      margin-bottom: 10px;
-    }
-
-    .footer .about .info .no-hp p {
-      margin: 0px 0px 0px;
-      color: black;
-    }
-
-    .footer .copyright {
-      border: 1px solid;
-      border-top-color: #fff;
-      border-bottom-right-radius: 20px;
-      border-bottom-left-radius: 20px;
-      /* border-radius: 20px; */
-      width: 100%;
-      text-align: center;
-      padding: 3px 8px 3px;
-    }
-
-    .footer .copyright label {
-
-      font-family: Work Sans;
-      font-size: 12px;
-      font-weight: 200;
-      color: #fff;
-    }
-
-    .navbar {
-      position: fixed;
-      width: 100%;
-      background-color: #212124;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      border-radius: 50px;
-      opacity: 90%;
-      margin-top: 5px;
-    }
-
-    .navbar .navbar-nav .nav-link {
-      color: #fff;
-    }
-
-    .navbar-nav {
-      margin-right: 20px;
-      gap: 20px;
-    }
-    .navbar-nav a {
-      font-family: Koulen;
-      font-size: 14px;
-      color: #fff;
-    }
-
-    .container-fluid {
-      display: flex;
-      justify-content: space-around;
-      padding: 0px 20px 0px;
-    }
-
-    .navbar-brand {
-      color: #fff;
-      font-family: Koulen;
-      font-size: 28px;
-      font-style: normal;
-    }
-
-    .nav-icon ul {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 0px;
-    }
-
-    .hero {
-      width: 100%;
-    }
-
-    .hero .bg-hero {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      background-image: url(/09_codeCompetance1/project/assets/img/bg-hero.jfif);
-      background-repeat: no-repeat;
-      background-size: cover;
-      object-position: center;
-      height: 700px;
-    }
-
-
-
-    .hero h1 {
-      font-family: Koulen;
-      font-size: 32px;
-      color: #000;
-      margin-top: 65px;
-    }
-
-    .hero p {
-      font-family: Kosugi;
-      font-size: 20px;
-      color: #000;
-      text-align: center;
-    }
-
-    .hero .bg-hero .hero-content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 800px;
-      padding: 0px 10px 0px;
-    }
-    .hero .bg-hero a{
-      background-color: #080809;
-      padding: 10px 20px 10px;
-      border-radius: 25px;
-      margin-left:0px ;
-      margin-top: 20px;
-      font-family: Kosugi;
-      font-size: 24px;
-    }
-    .content h1{
-        text-align: center;
-    }
-    .title {
-      display: flex;
-      justify-content: center;
-      padding: 20px 0px 20px;
-    }
-    .title label h1 {
-      font-family: Koulen;
-      font-size: 28px;
-    }
-    .content {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 2rem;
-      margin-bottom: 10px;
-    }
-    .content-product {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .product {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .product img {
-      width: 100%;
-      height: 250px;
-    }
-    .product p {
-      text-align: center;
-      font-family: Kosugi;
-      font-size: 14px;
-    }
-    .product .btn-buy {
-      background-color: #080809;
-      width: 150px;
-      display: flex;
-      justify-content: center;
-      padding: 10px 15px 10px;
-      border-radius: 25px;
-      opacity: 78%;
-    }
-    .product .btn-buy a{
-      text-decoration: none;
-      color: #fff;
-    }
-  </style>
   <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
       <a class="navbar-brand col-2 text-light" href="#">Selcouth.</a>
@@ -291,25 +42,28 @@
     </div>
   </nav>
 
-  <section class="hero">
-    <div class="bg-hero">
+  <section class="bg-hero">
+    <div class="hero">
       <div class="hero-content">
         <h1>Welcome in selcouthsupremacy</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quam. Esse odit ducimus eligendi nemo
-          quo debitis qui ullam dignissimos?</p>
+        <p>selcouthsupremacy menyediakan banyak berbagai jenis fashion dengan harga yang terjangkau. 
+          Kami juga sangat menjaga kualitas produk kami</p>
       </div>
       <a href="">Get Shopping</a>
     </div>
   </section>
   <div class="title">
-  <label for="text">
-    <h1>NEW ARRIVAL</h1>
-  </label>
+    <label for="text">
+      <h1>NEW ARRIVAL</h1>
+    </label>
   </div>
-  <main class="content">
+<main class="main-content">
+  <div class="content">
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
@@ -318,7 +72,9 @@
     </div>
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
@@ -327,7 +83,9 @@
     </div>
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
@@ -336,18 +94,23 @@
     </div>
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
         </div>
       </div>
     </div>
+  </div>
   </main>
   <main class="content">
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
@@ -356,7 +119,9 @@
     </div>
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
@@ -365,7 +130,9 @@
     </div>
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
@@ -374,14 +141,55 @@
     </div>
     <div class="content-product">
       <div class="product">
-        <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        <div class=product-image>
+          <img src="/09_codeCompetance1/project/assets/img/product.jfif" alt="">
+        </div>
         <p>selcouth | cargo-pants</p>
         <div class="btn-buy">
           <a href="">Rp. 87.000</a>
         </div>
       </div>
     </div>
+
   </main>
+  <!-- contact us -->
+  <div class="contact-us">
+    <!-- card contact us -->
+    <div class="card" style="width: 18rem; border-style: none;">
+      <div class="card-body">
+        <h5 class="card-title">Contact us</h5>
+        <p class="card-text">ada yang bisa kami bantu ? lengkapi form disamping untuk menemukan solusi dari
+          masalah yang anda temui di website kami</p>
+      </div>
+    </div>
+
+    <!-- input contact us -->
+    <form class="form-input" id="formInput" method="post">
+      <div class="mb-3">
+        <div class="form-input-name">
+          <div class="first-name">
+            <label for="card-text" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="last-name">
+            <label for="card-text" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last-name">
+          </div>
+        </div>
+        <div id="form-input-name" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInpuEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Apa yang bisa kami bantu ?</label>
+          <textarea class="form-control" id="Textarea" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
 
   <div class="footer">
     <div class="content-footer">
@@ -393,7 +201,7 @@
         <ul>
           <li>
             <img src="/09_codeCompetance1/project/assets/img/instagram.svg" alt="" /><a
-              href="https://instagram.com">selcouthsupremacy.</a>
+              href="https://instagram.com/selcouthsupremacy?igshid=MzRlODBiNWFlZA==">selcouthsupremacy.</a>
           </li>
           <li>
             <img src="/09_codeCompetance1/project/assets/img/youtube.svg" alt="" /><a
@@ -431,6 +239,7 @@
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="./assets/js/style.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
