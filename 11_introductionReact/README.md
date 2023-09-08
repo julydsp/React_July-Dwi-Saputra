@@ -14,4 +14,4 @@ VDOM merupakan representasi dari UI(User Interface) berbentuk javascript object 
 **TUGAS PRIORITAS 1 DAN 2**
 Jalankan react pada local
 
-![tampilan_Welcome_react](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/introduction_React/11_introduction_React/screenshot/Screenshot%20(408).png?row=true)
+![tampilan_Welcome_react](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/introduction_React/11_introductionReact/screenshot/Screenshot%20(408).png?row=true)
