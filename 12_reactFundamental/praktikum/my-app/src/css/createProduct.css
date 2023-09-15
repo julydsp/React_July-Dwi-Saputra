@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.navbar-brand {
+  font-style: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+.navbar-nav {
+  gap: 1rem;
+}
+.navbar-nav .nav-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+a:active {
+  background-color: #0d6efd;
+  color: white;
+}
+main {
+  display: inline-block;
+  margin: 40px 252px 0px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 50px 0px 50px;
+  width: 100%;
+}
+.header img {
+  height: 57px;
+}
+.header h2 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 31px;
+  font-style: normal;
+  color: #212529;
+}
+.header p {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: normal;
+  color: #212529;
+}
+.content {
+  height: 850px;
+  width: 100%;
+}
+.content .form-detail-product {
+  display: flex;
+  flex-direction: column;
+}
+.form-detail-product .form-label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+.productname {
+  margin-top: 10px;
+}
+.productname input {
+  width: 282px;
+  height: 36px;
+}
+.eror-teks {
+  font-family: Roboto;
+  padding: 3px 15px 0px;
+  font-weight: 400;
+  font-size: 13px;
+  color: red;
+  display: none;
+}
+.select-category {
+  margin-top: 20px;
+}
+.select-category .form-select {
+  width: 218px;
+  height: 36px;
+}
+.select-category .form-select option {
+  font-size: 16px;
+}
+.img {
+  margin-top: 20px;
+}
+.img .image::-webkit-file-upload-button {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+.input-group {
+  width: 240px;
+}
+.product-freshness {
+  margin-top: 20px;
+}
+.text-box {
+  margin-top: 20px;
+}
+.price {
+  margin-top: 20px;
+}
+
+.form-detail-product .btn {
+  width: 100%;
+  font-size: 20px ;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.form-detail-product .btn:hover{
+  background-color: #211e2b ;
+  color:  #ffffff;
+  transition: 0.3ms;
+}
+.footer {
+  text-align: center;
+  height: 500px;
+  margin-top: 50px;
+}
+.title {
+  text-align: center;
+}
+/* baris tabel */
+.tr-2 {
+  background-color: #dee2e6;
+}
+.tr-4 {
+  background-color: #dee2e6;
+}
+.search {
+  text-align: start;
+}
+.search input {
+  width: 170px;
+  height: 31px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: -13px;
+}
+.search input::placeholder {
+  color: #000000;
+}
+.btn-group {
+  justify-content: flex-start;
+  margin-top: 3px;
+}
+.btn-group .btn-deletion {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border-radius: 4px;
+  height: 32px;
+  padding: 0.5px 12px 0.5px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.btn-group .btn-search {
+  border-color: #0d6efd;
+  border-radius: 4px;
+  height: 32px;
+  padding: 0.5px 12px 0.5px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 2px;
+}
+.btn-search:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+  transition: 0,3ms;
+}
+@media (max-width: 848px) {
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-right: -4;
+  }
+  main {
+    display: inline-block;
+    margin: 40px 130px 0px;
+  }
+  .header h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
+    color: #212529;
+  }
+  .header p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+    color: #212529;
+  }
+  @media (max-width: 555px) {
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding-right: -4;
+  }
+  main {
+    display: inline-block;
+    margin: 40px 100px 0px;
+  }
+  .header h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 35px;
+    font-style: normal;
+    color: #212529;
+  }
+  .header p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    color: #212529;
+  }
+}
+}
