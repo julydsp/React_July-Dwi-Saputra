@@ -31,13 +31,13 @@ create custom hooks kita dapat membuat hooks sendiri memungkinkan kita mengekstr
 
 1. Dengan menggunakan useEffect buatlah sebuah alert yang bertulisan “Welcome” ketika mereka membuka halaman CreateAccount.
 
-![screenshot(432)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHooks/14_react_hooks/screenshot/Screenshot%20(432).png?row=true)
+![screenshot(432)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHook/14_react_hook/screenshot/Screenshot%20(432).png?row=true)
 
 2. Dengan menggunakan UseState masukkan setiap data yang kalian isi pada halaman CreateProduct ke dalam tabel. data yang akan tampil hanya no,Product Name, Product Category, Product Feshness dan Product Price. data yang lain tidak di tampilkan pada user interface. ilustrasi tabel dapat dilihat pada gambar di bawah
 
-![screenshot(430)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHooks/14_react_hooks/screenshot/Screenshot%20(430).png?row=true)
+![screenshot(430)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHook/14_react_hook/screenshot/Screenshot%20(430).png?row=true)
 
-![screenshot(431)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHooks/14_react_hooks/screenshot/Screenshot%20(431).png?row=true)
+![screenshot(431)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHook/14_react_hook/screenshot/Screenshot%20(431).png?row=true)
 
 **<h2>TUGAS PRIORITAS 2<h2>**
 
@@ -46,8 +46,8 @@ create custom hooks kita dapat membuat hooks sendiri memungkinkan kita mengekstr
     a. Jika pilih hapus maka data baru akan terhapus.
     b. Jika pilih tidak maka alert/modal/notifikasi akan hilang.
 
-![screenshot(433)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHooks/14_react_hooks/screenshot/Screenshot%20(433).png?row=true)
+![screenshot(433)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHook/14_react_hook/screenshot/Screenshot%20(433).png?row=true)
 
-![screenshot(434)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHooks/14_react_hooks/screenshot/Screenshot%20(434).png?row=true)
+![screenshot(434)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHook/14_react_hook/screenshot/Screenshot%20(434).png?row=true)
 
-![screenshot(435)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHooks/14_react_hooks/screenshot/Screenshot%20(435).png?row=true)
+![screenshot(435)](https://github.com/julydsp/React_July-Dwi-Saputra/blob/feat/reactHook/14_react_hook/screenshot/Screenshot%20(435).png?row=true)
