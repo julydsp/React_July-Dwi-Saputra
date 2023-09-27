@@ -1,0 +1,21 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 81px 33px;
+  background-color: #37517e;
+}
+
+.copy label {
+  font-size: 14px;
+  font-family: Open Sans;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.designed label {
+  font-size: 13px;
+  font-family: Open Sans;
+  color: #ffffff;
+  font-weight: 400;
+}
