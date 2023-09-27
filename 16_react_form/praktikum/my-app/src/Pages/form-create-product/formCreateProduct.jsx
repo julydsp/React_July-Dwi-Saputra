@@ -25,7 +25,7 @@ export default function FormProduct({ setingData }) {
     }
 
     // Validasi simbol
-    const symbolPattern = /[@#${}/]/; // Definisikan pola simbol
+    const symbolPattern = /[@#${}/]/; 
     if (symbolPattern.test(newProductName)) {
       symbolAlertVisible = true;
     }
@@ -61,8 +61,8 @@ export default function FormProduct({ setingData }) {
     if (newOnImageChange && newOnImageChange[0]) {
       selectedImage = newOnImageChange[0];
 
-      // Memeriksa ukuran file (misalnya, maksimum 5 MB)
-      const maxSizeInBytes = 5 * 1024 * 1024; // 5 MB
+      // Memeriksa ukuran file 
+      const maxSizeInBytes = 5 * 1024 * 1024; 
       if (selectedImage.size > maxSizeInBytes) {
         sizeImageAlert = true;
       }
@@ -70,11 +70,10 @@ export default function FormProduct({ setingData }) {
 
     if (sizeImageAlert) {
       setImageAlert("Ukuran file terlalu besar. Maksimum 5 MB diizinkan.");
-      // Tidak perlu melanjutkan jika ukuran file terlalu besar
       return;
     }
 
-    // Memeriksa validitas gambar (misalnya, dengan menguji apakah bisa di-render)
+    // Memeriksa validitas gambar
     const img = new Image();
     img.onload = () => {
       setImage(URL.createObjectURL(selectedImage));
