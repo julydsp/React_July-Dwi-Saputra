@@ -1,0 +1,56 @@
+.table-item .tr-1 .id {
+  text-decoration: none;
+  color: #000;
+}
+
+
+#table .table-item .tr-1 .action-1 button {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border-radius: 4px;
+  height: 32px;
+  padding: 0.5px 12px 0.5px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.search {
+  text-align: start;
+}
+
+.search input {
+  width: 170px;
+  height: 31px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: -13px;
+}
+
+.search input::placeholder {
+  color: #000000;
+}
+
+.btn-group {
+  justify-content: flex-start;
+  margin-top: 3px;
+}
+
+.btn-group .btn-search {
+  border-color: #0d6efd;
+  border-radius: 4px;
+  height: 32px;
+  padding: 0.5px 12px 0.5px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 2px;
+}
+
+.btn-search:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+  transition: 0,3ms;
+}
