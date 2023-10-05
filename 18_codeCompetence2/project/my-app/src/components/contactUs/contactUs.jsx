@@ -20,13 +20,11 @@ export default function ContactUs({ settingData }) {
     }))
     const symbolPatern = /[@#${}/]/;;
      if (symbolPatern.test(newFirstName)) {
-       // Mengubah nilai firstNameMessage menjadi "block" jika panjang nama melebihi 10 karakter
        setAlertMessage((prevAlertMessage) => ({
          ...prevAlertMessage,
          firstNameMessage: "block",
        }));
      } else {
-       // Mengubah nilai firstNameMessage menjadi "none" jika panjang nama tidak melebihi 10 karakter
        setAlertMessage((prevAlertMessage) => ({
          ...prevAlertMessage,
          firstNameMessage: "none",
