@@ -1,0 +1,55 @@
+/* Hero style */
+
+.hero {
+  width: 100%;
+  text-align: center;
+}
+
+.bg-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url(bgHero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-position: center;
+  height: 600px;
+}
+
+.hero h1 {
+  font-family: Koulen;
+  font-size: 32px;
+  color: #fff;
+  margin-top: 65px;
+}
+
+.hero p {
+  font-family: Kosugi;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  width: 600px;
+  text-shadow: 7px 7px 7px black;
+}
+
+.bg-hero .hero .hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 10px 0px;
+}
+.bg-hero .hero a {
+  background-color: #080809;
+  padding: 10px 20px 10px;
+  border-radius: 25px;
+  margin-left: 0px;
+  margin-top: 20px;
+  font-family: Kosugi;
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+}

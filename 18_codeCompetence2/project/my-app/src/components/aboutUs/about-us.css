@@ -1,0 +1,42 @@
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  padding: 50px 50px 50px;
+  gap: 20px;
+  width: 100%;
+}
+
+.pict-aboutUs {
+  display: flex;
+  justify-content: center;
+}
+
+.pict-aboutUs img {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.content-aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.content-aboutUs h1 {
+  color: #000;
+  font-family: Koulen;
+  font-size: 28px;
+}
+.content-aboutUs label {
+  color: #000;
+  font-family: Koulen;
+  font-size: 16px;
+  font-style: normal;
+}
+.content-aboutUs p {
+  font-family: Kosugi;
+  font-size: 14px;
+  color: #000;
+}
