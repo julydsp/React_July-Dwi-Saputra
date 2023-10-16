@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 81px 33px;
+  background-color: #37517e;
+  z-index: 999;
+  margin-top: 10px;
+}
+
+.copy label {
+  font-size: 14px;
+  font-family: Open Sans;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.designed label {
+  font-size: 13px;
+  font-family: Open Sans;
+  color: #ffffff;
+  font-weight: 400;
+}
